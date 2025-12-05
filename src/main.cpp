@@ -24,8 +24,8 @@ void setup() {
     M5.Display.printf("PASSWORD:%s\n", PASSWORD);
     M5.Display.println(WiFi.softAPIP());  // ホストIPアドレス
 
-    pinMode(10, OUTPUT);     // LEDピン設定
-    digitalWrite(10, HIGH);  // LED_OFF
+    // pinMode(10, OUTPUT);     // LEDピン設定
+    // digitalWrite(10, HIGH);  // LED_OFF
 
     wifiudp.begin(port);  // UDP開始
 }
